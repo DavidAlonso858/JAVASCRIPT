@@ -1,0 +1,10 @@
+
+
+
+const PRICE_MOBILE = 300;
+const PRICE_HEADPHONES = 30;
+const PRICE_CASE = 10;
+const DISCOUNT = 10;
+const TOTAL = PRICE_MOBILE +  PRICE_HEADPHONES  + PRICE_CASE;
+const SUBTOTAL = TOTAL * 10 / 100;
+console.log(SUBTOTAL)
