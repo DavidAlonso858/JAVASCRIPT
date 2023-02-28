@@ -39,5 +39,5 @@ const objetoArray = {
 
 objetoArray.array.forEach((elemento)=>{
     console.log("\n")
-    console.log(elemento + " jajaja")
+    console.log(elemento + " jajajahola")
 })
