@@ -1,6 +1,6 @@
 function anade() {
     var añadirElemento = document.getElementById("lista");
-    añadirElemento.innerHTML += "<li>prueba</li>";
+    añadirElemento.innerHTML += "<li>David Alonso</li>";
 
     /**
      *OTRA FORMA DE HACER EL EJERCICIO
