@@ -7,10 +7,16 @@ function anade() {
 }
 
 function borrar() {
+    var elementolista = document.getElementById("lista");
+
+    elementolista.lastChild.remove();
+   
+   /*Otra forma de hacerlo
     var lista = document.getElementById("lista");
 
     var ultimoElemento = lista.childNodes[lista.childNodes.length - 1];
 
     // Remove the last item from the list
     lista.removeChild(ultimoElemento);
+    */
 }

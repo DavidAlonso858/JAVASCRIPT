@@ -7,7 +7,11 @@ function anade() {
 }
 
 function borrar() {
-    var lista = document.getElementById("lista");
+    var Lista = document.getElementById('lista') 
+    var contenidoLista = Lista.getElementsByTagName('li');
+    var tamanio = contenidoLista.length
 
-    lista.remove(lista);
+    for (let index = 0; index < tamanio; index++) {
+        Lista.removeChild(contenidoLista[0])
+    }
 }
